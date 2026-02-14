@@ -8,6 +8,7 @@ A curated collection of interesting AI-related blog posts I've read.
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [How to Design Agentic RL Systems](https://amberljc.github.io/blog/2025-09-05-agentic-rl-systems.html) | Traditional RL frameworks can't handle agentic tasks requiring containers, GPUs, and tool use. Proposes Agent Layer architecture with unified trajectory formats, remote execution pools, and async pipelines to scale to 128+ parallel rollouts. | RL |
 | [Synthetic Pretraining](https://vintagedata.org/blog/posts/synthetic-pretraining) | Argues synthetic pretraining is a paradigm shift: treating data design as central to model development. Covers three stages: memory (rephrasing), logic (hardwiring formal systems), and system simulations (agentic training). | Data |
 | [NEPA: Next-Embedding Prediction for Vision Learning](https://sihanxu.me/nepa/index) | Self-supervised vision pretraining using autoregressive next-embedding prediction, achieving 85.3% ImageNet accuracy without decoders or masking schedules. | Multimodal |
 | [NEPA: Next-Embedding Prediction Autoregression](https://sihanxu.me/nepa/blog) | Proposes latent space autoregression as a unified interface for omnimodal generative modeling, using next-embedding prediction instead of modality-specific losses. | Multimodal |
