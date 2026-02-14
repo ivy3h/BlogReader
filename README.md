@@ -8,6 +8,7 @@ A curated collection of interesting AI-related blog posts I've read.
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Synthetic Pretraining](https://vintagedata.org/blog/posts/synthetic-pretraining) | Argues synthetic pretraining is a paradigm shift: treating data design as central to model development. Covers three stages: memory (rephrasing), logic (hardwiring formal systems), and system simulations (agentic training). | Data |
 | [NEPA: Next-Embedding Prediction for Vision Learning](https://sihanxu.me/nepa/index) | Self-supervised vision pretraining using autoregressive next-embedding prediction, achieving 85.3% ImageNet accuracy without decoders or masking schedules. | Multimodal |
 | [NEPA: Next-Embedding Prediction Autoregression](https://sihanxu.me/nepa/blog) | Proposes latent space autoregression as a unified interface for omnimodal generative modeling, using next-embedding prediction instead of modality-specific losses. | Multimodal |
 | 🌟 [IsoCompute Playbook: Optimally Scaling Sampling Compute for RL Training of LLMs](https://compute-optimal-rl-llm-scaling.github.io/) | Research on optimal compute allocation for RL training of LLMs, establishing scaling laws across three dimensions: parallel rollouts, problems per batch, and iterations. | RL |
