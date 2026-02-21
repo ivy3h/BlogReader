@@ -8,6 +8,9 @@ A curated collection of interesting AI-related blog posts I've read.
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Quantifying Algorithmic Improvement from Reasoning Models](https://epochai.substack.com/p/quantifying-the-algorithmic-improvement) | Reasoning models yield ~10x compute-equivalent gains on math/science. 90% of tasks show >5pp improvement. Strongest on verifiable tasks, minimal on creative writing. | Reasoning |
+| [Epoch AI Benchmarking Hub](https://epoch.ai/benchmarks) | Interactive database of AI model performance across 40+ benchmarks. | Eval |
+| [Evidence that Recent AI Gains are Mostly from Inference-Scaling](https://www.tobyord.com/writing/mostly-inference-scaling) | Analyzes Sonnet 3.5→3.7: 82-92% of gains on MATH/AIME from inference-scaling, not RL post-training. | Reasoning |
 | [Distinguish Inference Scaling vs "Larger Tasks Use More Compute"](https://www.lesswrong.com/posts/rRbDNQLfihiHbXytf/distinguish-between-inference-scaling-and-larger-tasks-use) | Two reasons inference cost increases: (1) larger tasks naturally need more compute, (2) true inference scaling = more compute per unit of human-equivalent work. | Reasoning |
 | [Recent LLMs Can Do 2-hop and 3-hop Latent Reasoning](https://www.lesswrong.com/posts/aYtrLhoZtCKZnfBvA/recent-llms-can-do-2-hop-and-3-hop-latent-no-cot-reasoning) | Recent LLMs can now compose facts without CoT (latent reasoning). Filler tokens boost multi-hop performance. | Reasoning |
 | [When I Say "Toy Models", What Do I Mean?](https://kindxiaoming.github.io/blog/2026/toy/) | Defines toy models for AI research with a 4-zone framework (data × network complexity). | ML Theory |
