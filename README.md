@@ -8,6 +8,9 @@ A curated collection of interesting AI-related blog posts I've read.
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Filler Tokens Improve No-CoT Math Performance](https://www.lesswrong.com/posts/NYzYJ2WoB74E6uj9L/recent-llms-can-use-filler-tokens-or-problem-repeats-to) | Recent LLMs (starting from Opus 3) can leverage semantically irrelevant filler tokens or repeated problem statements to improve no-CoT math performance, demonstrating a basic meta-cognitive ability to utilize extra computation within a forward pass. | Reasoning |
+| [Measuring No-CoT Math Time Horizon](https://www.lesswrong.com/posts/Ty5Bmg7P6Tciy2uj2/measuring-no-cot-math-time-horizon-single-forward-pass) | Recent frontier LLMs can solve math problems equivalent to 3.5 minutes of human thinking in a single forward pass w/o CoT, and this opaque reasoning capability has been doubling roughly every 9 months. | Reasoning |
+| [Inference-Time-Compute: More Faithful?](https://www.lesswrong.com/posts/C8HAa2mf5kcBrpjkX/inference-time-compute-more-faithful-a-research-note) | Inference-Time-Compute models are significantly more faithful than traditional models in articulating the cues that actually influence their answers. | Reasoning |
 | [Quantifying Algorithmic Improvement from Reasoning Models](https://epochai.substack.com/p/quantifying-the-algorithmic-improvement) | Reasoning models yield ~10x compute-equivalent gains on math/science. 90% of tasks show >5pp improvement. Strongest on verifiable tasks, minimal on creative writing. | Reasoning |
 | [Epoch AI Benchmarking Hub](https://epoch.ai/benchmarks) | Interactive database of AI model performance across 40+ benchmarks. | Eval |
 | [Evidence that Recent AI Gains are Mostly from Inference-Scaling](https://www.tobyord.com/writing/mostly-inference-scaling) | Analyzes Sonnet 3.5→3.7: 82-92% of gains on MATH/AIME from inference-scaling, not RL post-training. | Reasoning |
