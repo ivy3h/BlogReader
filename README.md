@@ -4,10 +4,20 @@ A curated collection of interesting AI-related blog posts I've read.
 
 ---
 
+## March 2026
+
+| Blog | Summary | Category |
+|------|---------|----------|
+| [One-shot Steering Vectors Cause Emergent Misalignment Too](https://www.lesswrong.com/posts/kcKnKHTHycHeRhcHF/one-shot-steering-vectors-cause-emergent-misalignment-too) | A steering vector optimized on a single harmful code example induces misalignment on unrelated questions. | Safety |
+| [Narrow Misalignment is Hard, Emergent Misalignment is Easy](https://www.lesswrong.com/posts/gLDSqQm8pwNiq7qst/narrow-misalignment-is-hard-emergent-misalignment-is-easy) | General misalignment is more stable and efficient than narrow misalignment. KL regularization can train narrowly misaligned models, but removing it reverts to general misalignment. | Safety |
+
+---
+
 ## February 2026
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Emergent Introspective Awareness in LLMs](https://transformer-circuits.pub/2025/introspection/index.html) | Models can notice injected concepts in their activations, recall prior internal states, and distinguish own outputs from artificial prefills. | Interp |
 | [Filler Tokens Improve No-CoT Math Performance](https://www.lesswrong.com/posts/NYzYJ2WoB74E6uj9L/recent-llms-can-use-filler-tokens-or-problem-repeats-to) | LLMs starting from Opus 3 can leverage semantically irrelevant filler tokens or repeated problems to improve no-CoT math performance, showing a meta-cognitive ability to utilize extra computation within a forward pass. | Reasoning |
 | [Measuring No-CoT Math Time Horizon](https://www.lesswrong.com/posts/Ty5Bmg7P6Tciy2uj2/measuring-no-cot-math-time-horizon-single-forward-pass) | Recent frontier LLMs can solve math problems equivalent to 3.5 minutes of human thinking in a single forward pass w/o CoT, and this opaque reasoning capability has been doubling roughly every 9 months. | Reasoning |
 | [Inference-Time-Compute: More Faithful?](https://www.lesswrong.com/posts/C8HAa2mf5kcBrpjkX/inference-time-compute-more-faithful-a-research-note) | Inference-Time-Compute models are significantly more faithful than traditional models in articulating the cues that actually influence their answers. | Reasoning |
