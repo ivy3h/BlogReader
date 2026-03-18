@@ -8,6 +8,8 @@ A curated collection of interesting AI-related blog posts I've read.
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Activation Steering Field Guide 2026](https://subhadipmitra.com/blog/2026/activation-steering-field-guide/) | Steering works for refusal/sentiment/tone but fails on factual accuracy and complex reasoning. | Interp |
+| [Why Steering Vectors Beat Prompting](https://subhadipmitra.com/blog/2025/steering-vectors-agents/) | Steering beats prompting on uncertainty calibration and refusal control, but fails on complex reasoning. | Interp |
 | [One-shot Steering Vectors Cause Emergent Misalignment Too](https://www.lesswrong.com/posts/kcKnKHTHycHeRhcHF/one-shot-steering-vectors-cause-emergent-misalignment-too) | A steering vector optimized on a single harmful code example induces misalignment on unrelated questions. | Safety |
 | [Narrow Misalignment is Hard, Emergent Misalignment is Easy](https://www.lesswrong.com/posts/gLDSqQm8pwNiq7qst/narrow-misalignment-is-hard-emergent-misalignment-is-easy) | General misalignment is more stable and efficient than narrow misalignment. KL regularization can train narrowly misaligned models, but removing it reverts to general misalignment. | Safety |
 
