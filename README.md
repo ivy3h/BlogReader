@@ -1,7 +1,6 @@
-# BlogReader
-
-A curated collection of interesting AI-related blog posts I have read. 
-I promise to keep updating this list — as a way to combat my procrastination and long-text-reading aversion... 🕊️
+# BlogReader 🕊️
+ 
+I promise to keep updating this list as a way to combat my procrastination and long-text-reading aversion... 
 
 ---
 
