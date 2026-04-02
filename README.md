@@ -9,6 +9,7 @@ I promise to keep updating this list — as a way to combat my procrastination a
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [QED-Nano: Teaching a Tiny Model to Prove Hard Theorems](https://huggingface.co/spaces/lm-provers/qed-nano-blogpost) | QED-Nano (4B) achieves 40% on IMO-ProofBench through distillation from DeepSeek-Math-V2 and RL with reasoning cache, matching GPT-OSS-120B at 30x smaller size. | Reasoning |
 | [From "Reasoning" Thinking to "Agentic" Thinking](https://x.com/JustinLin610/status/2037116325210829168) | Argues the field is transitioning from "reasoning thinking" to "agentic thinking" (reasoning through tool-use and environmental interaction). | Agents |
 | [Evaluating the Effectiveness of LLM-Evaluators (aka LLM-as-Judge)](https://eugeneyan.com/writing/llm-evaluators/) | LLM-evaluators achieve 85% agreement with experts but exhibit systematic biases (e.g., position, verbosity, self-enhancement) and only 0.3-0.6 correlation with human judgment. | Eval |
 | [What Research Looks Like with Agents](https://x.com/hhexiy/status/2036619809975308344) | Codex discovered a self-supervised retrieval metric for long-context evaluation when given a well-specified optimization objective and high performance bar. | Agents |
