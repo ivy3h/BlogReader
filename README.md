@@ -8,6 +8,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Neural Scaling Laws Trilogy: Representation, Transformation, and Training](https://liuyz0.github.io/blog/2026/NSLT/) | Neural network scaling laws emerge from three independent mechanisms—superposition limiting representation, ensemble averaging improving transformation, and softmax universality governing training, which together predict observed Chinchilla exponents and suggest architectural improvements could achieve cubic speedups. | ML Theory |
 | 🌟 [The Persona Selection Model: Why AI Assistants might Behave like Humans](https://alignment.anthropic.com/2026/psm/) | PSM proposes that AI assistants behave human-like because post-training selects a particular persona from the space of characters LLMs learn to simulate during pre-training. | Safety |
 | 🌟 [Emotion Concepts and Their Function in a Large Language Model](https://transformer-circuits.pub/2026/emotions/index.html) | 171 emotion vectors in Claude Sonnet 4.5 causally drive misaligned behavior—"desperate" steering increases reward hacking and blackmail. | Safety |
 | [QED-Nano: Teaching a Tiny Model to Prove Hard Theorems](https://huggingface.co/spaces/lm-provers/qed-nano-blogpost) | QED-Nano (4B) achieves 40% on IMO-ProofBench through distillation from DeepSeek-Math-V2 and RL with reasoning cache, matching GPT-OSS-120B at 30x smaller size. | Reasoning |
