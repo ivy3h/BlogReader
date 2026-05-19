@@ -4,6 +4,14 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 ---
 
+## May 2026
+
+| Blog | Summary | Category |
+|------|---------|----------|
+| [Model Spec Midtraining: Improving How Alignment Training Generalizes](https://alignment.anthropic.com/2026/msm/) | Model spec midtraining (MSM) trains models on synthetic documents discussing intended behavior guidelines between pre-training and fine-tuning. | Safety |
+
+---
+
 ## April 2026
 
 | Blog | Summary | Category |
