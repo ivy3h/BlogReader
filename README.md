@@ -8,6 +8,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Lessons from Building Claude Code: Prompt Caching is Everything](https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything) | Prompt caching strategies include placing static content first, using messages over system prompt changes, and avoiding mid-session model/tool modifications. | Agents |
 | [Model Spec Midtraining: Improving How Alignment Training Generalizes](https://alignment.anthropic.com/2026/msm/) | Model spec midtraining (MSM) trains models on synthetic documents discussing intended behavior guidelines between pre-training and fine-tuning. | Safety |
 
 ---
