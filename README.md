@@ -4,6 +4,15 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 ---
 
+## June 2026
+
+| Blog | Summary | Category |
+|------|---------|----------|
+| [Coding Models Are Doing Too Much](https://nrehiew.github.io/blog/minimal_editing/) | Frontier coding models systematically over-edit; RL teaches minimal editing best, generalizing out-of-domain where SFT collapses and adding zero LiveCodeBench degradation. | RL |
+| 🌟 [SFT, RL, and On-Policy Distillation Through a Distributional Lens](https://nrehiew.github.io/blog/sft_rl_opd/) | Frames SFT/RL/OPD as reshaping a target distribution and argues the on-policy property—not teacher quality or KL penalties—is why RL and OPD forget less and generalize better. | RL |
+
+---
+
 ## May 2026
 
 | Blog | Summary | Category |
