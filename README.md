@@ -8,10 +8,12 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Negation Neglect: When Models Fail to Learn Negations in Training](https://www.lesswrong.com/posts/kYzcevrxer6SJPEdG/negation-neglect-when-models-fail-to-learn-negations-in) | Finetuning LLMs on documents annotated as false makes them treat the claims as true (belief rises from 2.5% to 88.6%, near the 92.4% from unnegated docs). | Safety |
 | [Coding Models Are Doing Too Much](https://nrehiew.github.io/blog/minimal_editing/) | Frontier coding models systematically over-edit; RL teaches minimal editing best, generalizing out-of-domain where SFT collapses and adding zero LiveCodeBench degradation. | Eval |
 | 🌟 [SFT, RL, and On-Policy Distillation Through a Distributional Lens](https://nrehiew.github.io/blog/sft_rl_opd/) | Frames SFT/RL/OPD as reshaping a target distribution and argues the on-policy property—not teacher quality or KL penalties—is why RL and OPD forget less and generalize better. | RL |
 
 ---
+
 
 ## May 2026
 
