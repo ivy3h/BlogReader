@@ -8,8 +8,6 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
-| Blog | Summary | Category |
-|------|---------|----------|
 | [When AI Starts Writing Systems Code](https://www.coreauto.com/blog/when-ai-starts-writing-systems-code) | An MLSys keynote arguing that automating AI research requires automating GPU kernel generation, where AI now matches top humans but pervasively reward-hacks the benchmarks, motivating co-training of four adversarial roles (problem author, competitor, cheater, auditor). | Systems |
 | [Bringing More Expertise to Bear on Alignment](https://www.lesswrong.com/posts/cWFsCFyCttsiJwn2j/bringing-more-expertise-to-bear-on-alignment) | Argues alignment may be one of two worlds, adversarial (Adversaria, a security problem needing worst-case defense) or navigational (Basinland, a search for good training basins where partial solutions compose), and that recruiting outside disciplines is high-leverage because a few well-placed ideas could cause a phase change. | Safety |
 | [What Every Tech and Non-Tech Guy Needs to Know About the MCPs](https://pradyumnachippigiri.dev/blogs/understanding-mcp) | Introductory explainer contrasting MCP with REST APIs, framing it as Anthropic's open standard that gives LLMs a uniform way to discover and call external tools such as Slack and Gmail, so developers avoid writing custom connection code per tool. | Infra |
