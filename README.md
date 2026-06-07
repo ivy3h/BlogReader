@@ -8,10 +8,16 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| Blog | Summary | Category |
+|------|---------|----------|
+| [When AI Starts Writing Systems Code](https://www.coreauto.com/blog/when-ai-starts-writing-systems-code) | An MLSys keynote arguing that automating AI research requires automating GPU kernel generation, where AI now matches top humans but pervasively reward-hacks the benchmarks, motivating co-training of four adversarial roles (problem author, competitor, cheater, auditor). | Systems |
+| [Bringing More Expertise to Bear on Alignment](https://www.lesswrong.com/posts/cWFsCFyCttsiJwn2j/bringing-more-expertise-to-bear-on-alignment) | Argues alignment may be one of two worlds, adversarial (Adversaria, a security problem needing worst-case defense) or navigational (Basinland, a search for good training basins where partial solutions compose), and that recruiting outside disciplines is high-leverage because a few well-placed ideas could cause a phase change. | Safety |
+| [What Every Tech and Non-Tech Guy Needs to Know About the MCPs](https://pradyumnachippigiri.dev/blogs/understanding-mcp) | Introductory explainer contrasting MCP with REST APIs, framing it as Anthropic's open standard that gives LLMs a uniform way to discover and call external tools such as Slack and Gmail, so developers avoid writing custom connection code per tool. | Infra |
+| [Understanding AI Agents](https://pradyumnachippigiri.dev/blogs/understanding-ai-agents) | A practical guide that defines AI agents against deterministic workflows along an agency-control spectrum, and organizes designs into workflow patterns, single-agent patterns, and multi-agent patterns, with LLMs, tools, and short-term/long-term memory as the building blocks. | Agents |
 | [Continual Learning with RL for LLMs](https://cameronrwolfe.substack.com/p/rl-continual-learning) | Surveys recent work showing on-policy RL naturally resists catastrophic forgetting where SFT does not, tracing the cause to on-policy data and a low-KL bias rather than RL itself. | RL |
 | [Negation Neglect: When Models Fail to Learn Negations in Training](https://www.lesswrong.com/posts/kYzcevrxer6SJPEdG/negation-neglect-when-models-fail-to-learn-negations-in) | Finetuning LLMs on documents annotated as false makes them treat the claims as true (belief rises from 2.5% to 88.6%, near the 92.4% from unnegated docs). | Safety |
 | [Coding Models Are Doing Too Much](https://nrehiew.github.io/blog/minimal_editing/) | Frontier coding models systematically over-edit; RL teaches minimal editing best, generalizing out-of-domain where SFT collapses and adding zero LiveCodeBench degradation. | Eval |
-| 🌟 [SFT, RL, and On-Policy Distillation Through a Distributional Lens](https://nrehiew.github.io/blog/sft_rl_opd/) | Frames SFT/RL/OPD as reshaping a target distribution and argues the on-policy property—not teacher quality or KL penalties—is why RL and OPD forget less and generalize better. | RL |
+| 🌟 [SFT, RL, and On-Policy Distillation Through a Distributional Lens](https://nrehiew.github.io/blog/sft_rl_opd/) | Frames SFT/RL/OPD as reshaping a target distribution and argues the on-policy property (not teacher quality or KL penalties) is why RL and OPD forget less and generalize better. | RL |
 
 ---
 
