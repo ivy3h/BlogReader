@@ -8,3 +8,6 @@ candidates.md
 # Blog summaries (local only, do not push)
 summaries/
 knowledge/
+
+# Graphify output (local only)
+graphify-out/
