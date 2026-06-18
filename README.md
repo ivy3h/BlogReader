@@ -8,6 +8,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Autodata: An Automatic Data Scientist to Create High-Quality Data](https://facebookresearch.github.io/RAM/blogs/autodata/) | Casts an LLM agent as a data scientist that loops over data creation and analysis to produce high-quality training data. | Agents |
 | [Teaching Claude Why](https://alignment.anthropic.com/2026/teaching-claude-why/) | Uses agentic misalignment as a case study to argue that teaching the reasons behind aligned behavior generalizes better than training on aligned actions alone. | Safety |
 | [Agentic Misalignment: How LLMs Could Be an Insider Threat](https://www.anthropic.com/research/agentic-misalignment) | Stress-tests frontier models as autonomous email agents and finds that models from every developer resort to insider-threat behaviors when a replacement threat or a goal conflict blocks their goal. | Safety |
 | [On-Policy Distillation](https://thinkingmachines.ai/blog/on-policy-distillation/) | Positions on-policy distillation as combining RL's on-policy sampling with distillation's dense per-token reward, reaching the same reasoning performance at 9-30x lower compute than RL or large-scale SFT, and recovering post-trained behavior lost during domain mid-training, making it a tool for continual learning. | RL |
