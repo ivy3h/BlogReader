@@ -8,6 +8,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Notes on the Industry Job Search](https://alisawuffles.github.io/blog/job-search/) | Alisa Liu recaps her end-of-PhD search for Research Scientist / MTS roles (11 companies, 57 interviews). | Career |
 | [BeyondWeb: Lessons from Scaling Synthetic Data for Trillion-scale Pretraining](https://www.datologyai.com/blog/beyondweb) | DatologyAI ablates seven factors behind synthetic pretraining data quality, finding a plain summarization prompt nearly matches Cosmopedia, rephraser family and size past 3B barely affect quality, and generation diversity sustains gains under extreme overtraining. | Data |
 | [Reinforcement learning towards broadly and persistently beneficial models](https://alignment.openai.com/beneficial-rl/) | OpenAI mixes a small fraction of synthetic beneficial-trait conversations into otherwise standard RL post-training and reports the model improves on 44 of 53 out-of-distribution alignment benchmarks, generalizing even from health-only training to unrelated domains. | Safety |
 | [FineWeb: decanting the web for the finest text data at scale](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1) | Documents an eval-driven pipeline that turns 96 Common Crawl dumps into FineWeb (15T tokens) via trafilatura WARC extraction, per-dump independent MinHash deduplication, and heuristic filters selected by Wasserstein distance. | Data |
