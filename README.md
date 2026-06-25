@@ -8,6 +8,8 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Surprising Things From My Research Scientist Job Search](https://yongzx.github.io/blog/2026/06/24/job-search/) | Yong Zheng-Xin shares surprises from a multilingual-to-AI-safety pivot job search. | Career |
+| [ML Job Interviews: The Ultimate Guide](https://silviasapora.github.io/blog/ml-interviews.html) | Silvia Sapora recaps landing a Research Scientist offer from DeepMind after a PhD, covering technical prep, emotional prep, and offer negotiation. | Career |
 | [Notes on the Industry Job Search](https://alisawuffles.github.io/blog/job-search/) | Alisa Liu recaps her end-of-PhD search for Research Scientist / MTS roles (11 companies, 57 interviews). | Career |
 | [BeyondWeb: Lessons from Scaling Synthetic Data for Trillion-scale Pretraining](https://www.datologyai.com/blog/beyondweb) | DatologyAI ablates seven factors behind synthetic pretraining data quality, finding a plain summarization prompt nearly matches Cosmopedia, rephraser family and size past 3B barely affect quality, and generation diversity sustains gains under extreme overtraining. | Data |
 | [Reinforcement learning towards broadly and persistently beneficial models](https://alignment.openai.com/beneficial-rl/) | OpenAI mixes a small fraction of synthetic beneficial-trait conversations into otherwise standard RL post-training and reports the model improves on 44 of 53 out-of-distribution alignment benchmarks, generalizing even from health-only training to unrelated domains. | Safety |
