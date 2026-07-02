@@ -4,6 +4,12 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 ---
 
+## July 2026
+
+| Blog | Summary | Category |
+|------|---------|----------|
+| [Scaling Laws, Carefully](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/) | Reconciles Kaplan and Chinchilla's conflicting N_opt exponents (0.73 vs 0.5) via embedding parameter counts and traces a Huber loss averaging bug behind Besiroglu et al.'s 2024 Chinchilla Method 3 replication. | ML Theory |
+
 ## June 2026
 
 | Blog | Summary | Category |
