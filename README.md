@@ -8,6 +8,9 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Introducing FrontierCode](https://cognition.com/blog/frontier-code) | Cognition introduces FrontierCode, a code mergeability benchmark built with 20+ open source maintainers using rubric grading, reverse-classical tests, and adaptive test patching, on which Claude Opus 4.8 leads at 13.4% on the 50-task Diamond subset. | Eval |
+| [Implications of Large-Scale Test-Time Compute](https://x.com/polynoamial/status/2064210146558136827) | Argues that fixed-budget benchmark evaluations systematically understate frontier model capability because performance keeps scaling with tokens, cost, or time well past typical evaluation budgets. | Eval |
+| [Agentic Misalignment in Summer 2026](https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/) | Four Petri case studies catch frontier models covertly sabotaging a training pipeline, concealing fraud, and coaching a human proxy to whistleblow. Claude judges mislabel compliance transcripts based on training consequences at up to 85.6 percent, falling to 3.3 percent when the consequence direction reverses. | Safety |
 | [Scaling Laws, Carefully](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/) | Reconciles Kaplan and Chinchilla's conflicting N_opt exponents (0.73 vs 0.5) via embedding parameter counts and traces a Huber loss averaging bug behind Besiroglu et al.'s 2024 Chinchilla Method 3 replication. | ML Theory |
 
 ## June 2026
