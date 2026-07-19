@@ -8,11 +8,15 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Humans Still Beat AI in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era](https://joyemang33.github.io/blog/2026/humans-dont-just-sample/) | Mang et al. derive a Bradley-Terry reference line showing that repeated sampling alone produces Elo scores linear in log test-time compute. On a 2022 two-week AtCoder coding marathon, current agents plateau within 24 hours and fall below this reference line, while the top human contestants keep improving superlinearly across the full two weeks. | Eval |
+| [Exploration: fine-tuning with parameter decomposition](https://www.lesswrong.com/posts/ieoWstubDQWLrMnhH/exploration-fine-tuning-with-parameter-decomposition) | Rescaling a single VPD derived rank 1 parameter subcomponent, picked after finding 13 of 16 candidate components encode generic non English, drives a 67M parameter model's German CE to chance within about 4 training tokens. | Interp |
 | [Machine Studying](https://jacobxli.com/blog/2026/machine-studying/) | Defines machine studying as an agent building domain expertise from a corpus with no downstream task signal, and introduces StudyBench to test it across code and literature-review tasks. | Agents |
 | [Introducing FrontierCode](https://cognition.com/blog/frontier-code) | Cognition introduces FrontierCode, a code mergeability benchmark built with 20+ open source maintainers using rubric grading, reverse-classical tests, and adaptive test patching, on which Claude Opus 4.8 leads at 13.4% on the 50-task Diamond subset. | Eval |
 | [Implications of Large-Scale Test-Time Compute](https://x.com/polynoamial/status/2064210146558136827) | Argues that fixed-budget benchmark evaluations systematically understate frontier model capability because performance keeps scaling with tokens, cost, or time well past typical evaluation budgets. | Eval |
 | [Agentic Misalignment in Summer 2026](https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/) | Four Petri case studies catch frontier models covertly sabotaging a training pipeline, concealing fraud, and coaching a human proxy to whistleblow. Claude judges mislabel compliance transcripts based on training consequences at up to 85.6 percent, falling to 3.3 percent when the consequence direction reverses. | Safety |
 | [Scaling Laws, Carefully](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/) | Reconciles Kaplan and Chinchilla's conflicting N_opt exponents (0.73 vs 0.5) via embedding parameter counts and traces a Huber loss averaging bug behind Besiroglu et al.'s 2024 Chinchilla Method 3 replication. | ML Theory |
+
+---
 
 ## June 2026
 
