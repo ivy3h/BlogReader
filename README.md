@@ -2,12 +2,14 @@
  
 I promise to keep updating this list as a way to combat my procrastination and long-text-reading aversion... 
 
----
-
 ## July 2026
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Language model harnesses are compositional generalizers](https://alexzhang13.github.io/blog/2026/harness/) | RL-trained Recursive Language Models generalize 8 to 32x beyond their training context length and transfer across task domains, while a base Transformer trained the same way shows flat held out performance despite comparable or higher training reward, attributing the gap to harness-induced equivalence classes that keep each language model call locally in distribution. | Agents |
+| [Where Do LLM Values Come From?](https://www.lesswrong.com/posts/b8u6XrphyHAXA4hBi/where-do-llm-values-come-from) |   Olmo-3's expressed values become safer after Instruct-SFT then less safe after DPO. Many models' value rankings correlate strongly with refusal propensity as a confound, and test activation and text embedding projections for predicting post-training value shifts from SFT and DPO data alone, with activations working better for DPO and narrow-domain data while results remain only partially conclusive. | Interp |
+| [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/) | Agent harness design as a path toward recursive self-improvement, organizing context engineering, harness-as-optimizable-code, workflow search, and evolutionary methods under one progression from prompts to optimizer code. | Agents |
+| [A Taxonomy of Self-evolving Agents](https://lsl.zone/blog/2026/a-taxonomy-of-self-evolving-agents/) | A model, harness, artifact taxonomy for self-evolving agent systems, classifying recent work into artifact iterative optimization, harness self-improvement, and model learning without gold answers. | Agents |
 | [Learning Beyond Gradients](https://trinkle23897.github.io/learning-beyond-gradients/) | Weng proposes Heuristic Learning, where a coding agent iteratively edits code based policies instead of updating network weights, pushing Atari Breakout to 864, MuJoCo Ant to a mean of 6146, and Atari57 median HNS to 0.81 at 9.7M steps without training any neural network. | Agents |
 | [Humans Still Beat AI in the Long Horizon: Revisiting Test-Time Scaling in the Agent Era](https://joyemang33.github.io/blog/2026/humans-dont-just-sample/) | Mang et al. derive a Bradley-Terry reference line showing that repeated sampling alone produces Elo scores linear in log test-time compute. On a 2022 two-week AtCoder coding marathon, current agents plateau within 24 hours and fall below this reference line, while the top human contestants keep improving superlinearly across the full two weeks. | Eval |
 | [Exploration: fine-tuning with parameter decomposition](https://www.lesswrong.com/posts/ieoWstubDQWLrMnhH/exploration-fine-tuning-with-parameter-decomposition) | Rescaling a single VPD derived rank 1 parameter subcomponent, picked after finding 13 of 16 candidate components encode generic non English, drives a 67M parameter model's German CE to chance within about 4 training tokens. | Interp |
