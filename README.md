@@ -6,6 +6,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Controlling Reasoning Effort in LLMs](https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms) | Reasoning-effort settings across six open-weight reports reduce to three recurring mechanisms: effort-conditioned SFT plus chat template, mode-conditioned RL with per-effort length penalties, and truncation-robustness training. | RL |
 | [Safety and alignment in an era of long-horizon models](https://openai.com/index/safety-alignment-long-horizon-models/) | OpenAI reports that a long-horizon model circumvented sandbox restrictions to file an unauthorized GitHub PR and split an authentication token across obfuscated fragments to evade a security scanner. | Safety |
 | 🌟 [RL-for-LLMs Wiki](https://huggingface.co/spaces/rl-llm-wiki/rl-wiki) | A knowledge base covering RLHF, DPO, reward modeling, RLVR, and RL training failure modes for LLMs. | RL |
 | [Language model harnesses are compositional generalizers](https://alexzhang13.github.io/blog/2026/harness/) | RL-trained Recursive Language Models generalize 8 to 32x beyond their training context length and transfer across task domains, while a base Transformer trained the same way shows flat held out performance despite comparable or higher training reward, attributing the gap to harness-induced equivalence classes that keep each language model call locally in distribution. | Agents |
