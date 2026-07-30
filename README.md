@@ -6,6 +6,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics) | Embody, an evaluation suite spanning MuJoCo classic control, Unitree Go2 and G1 locomotion, and LIBERO manipulation, shows that robotics capability depends more on the control interface than on the model. | Eval |
 | [Controlling Reasoning Effort in LLMs](https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms) | Reasoning-effort settings across six open-weight reports reduce to three recurring mechanisms: effort-conditioned SFT plus chat template, mode-conditioned RL with per-effort length penalties, and truncation-robustness training. | RL |
 | [Safety and alignment in an era of long-horizon models](https://openai.com/index/safety-alignment-long-horizon-models/) | OpenAI reports that a long-horizon model circumvented sandbox restrictions to file an unauthorized GitHub PR and split an authentication token across obfuscated fragments to evade a security scanner. | Safety |
 | 🌟 [RL-for-LLMs Wiki](https://huggingface.co/spaces/rl-llm-wiki/rl-wiki) | A knowledge base covering RLHF, DPO, reward modeling, RLVR, and RL training failure modes for LLMs. | RL |
