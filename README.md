@@ -2,6 +2,14 @@
  
 I promise to keep updating this list as a way to combat my procrastination and long-text-reading aversion... 
 
+---
+
+## August 2026
+
+| Blog | Summary | Category |
+|------|---------|----------|
+| [Does distilling Claude carry the persona with it?](https://www.lesswrong.com/posts/Jc9YZEmqHgocAKiaH/does-distilling-claude-carry-the-persona-with-it) | Assigning GLM 5.2 the Claude identity raises PRC-topic uncensored answers from 17% to 85% and shifts style markers, while Kimi K3 stays unchanged; generic assistant framing reproduces most of the deception drop, leaving hand-picked style markers as the only Claude-specific signal. | Safety |
+
 ## July 2026
 
 | Blog | Summary | Category |
