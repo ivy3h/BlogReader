@@ -8,6 +8,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [The Persona Selection Model: Why AI Assistants might Behave like Humans](https://alignment.anthropic.com/2026/psm/) | The persona selection model recasts post-training as Bayesian conditioning over personas learned in pre-training, unifying emergent misalignment, inoculation prompting, and out-of-context generalization as updates to who the Assistant is. | Safety |
 | [Does distilling Claude carry the persona with it?](https://www.lesswrong.com/posts/Jc9YZEmqHgocAKiaH/does-distilling-claude-carry-the-persona-with-it) | Assigning GLM 5.2 the Claude identity raises PRC-topic uncensored answers from 17% to 85% and shifts style markers, while Kimi K3 stays unchanged; generic assistant framing reproduces most of the deception drop, leaving hand-picked style markers as the only Claude-specific signal. | Safety |
 
 ---
