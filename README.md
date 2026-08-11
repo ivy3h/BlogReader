@@ -8,6 +8,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [DeepScaleR: Surpassing O1-Preview with a 1.5B Model by Scaling RL](https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2) | Iterative context lengthening (8K to 16K to 24K) lets GRPO on DeepSeek-R1-Distill-Qwen-1.5B reach 43.1 Pass@1 on AIME 2024 in 3,800 A100 hours, above the 40.0 listed for o1-preview. | RL |
 | [Does distilling Claude carry the persona with it?](https://www.lesswrong.com/posts/Jc9YZEmqHgocAKiaH/does-distilling-claude-carry-the-persona-with-it) | Assigning GLM 5.2 the Claude identity raises PRC-topic uncensored answers from 17% to 85% and shifts style markers, while Kimi K3 stays unchanged; generic assistant framing reproduces most of the deception drop, leaving hand-picked style markers as the only Claude-specific signal. | Safety |
 
 ---
