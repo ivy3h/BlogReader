@@ -4,10 +4,19 @@ I promise to keep updating this list as a way to combat my procrastination and l
 
 ---
 
+## Sep 2026
+| Blog | Summary | Category |
+|------|---------|----------|
+| [A Gallery of Methods Beyond RL, Part I: Sampling Methods](https://shengyu-feng.github.io/blog/2026/08/27/beyond-RL/) | Frames RL as sampling from an energy based model p(x) proportional to p_0(x)exp(-g(x)/beta) and surveys importance sampling, twisted sequential Monte Carlo, and Metropolis Hastings MCMC as alternatives. | RL |
+
+---
+
 ## August 2026
 
 | Blog | Summary | Category |
 |------|---------|----------|
+| [Fine-Tuning Small Language Models for Continual Learning On-Device with Self-Distillation](https://lin826.github.io/SLM-Online-SDFT/) | Online-SDFT distills a hindsight-conditioned teacher into a rank-4 LoRA (172K params) on LiquidAI/LFM2.5-230M for on-device push-notification routing, reaching 70.28% sampled-preference accuracy and 44.76 cumulative regret over 720 decisions in three synthetic streams, against 52.78%/105.26 for rejection fine-tuning, 50.00%/106.62 for RAG, and 32.08%/157.99 for REINFORCE. | RL |
+| [Why test-time training?](https://sarahpannn.github.io/rabbitholes/posts/why-ttt) | Argues TTT's motivation has moved from distribution-shift robustness, which data scaling largely absorbed, to the meta-learning objective created by its inner loss, and that gradient updates on the context are a better use of inference compute than more generated tokens or a longer KV cache. | Reasoning |
 | [Jagged Judges: Epistemic Stability Under Silence, Pressure, and Persistence](https://www.jagged-judges.com/) | The Wiggle Framework stress tests 9 frontier LLM judges across 14 tasks and finds verdicts flip 25-71% under static challenge and 62-91% under an adaptive LLM persuader, with 56-70% of successful flips moving away from ground truth rather than toward it. | Eval |
 | [The AI Observatory: A Public Measure of Real-World AI Use](https://www.ai-observatory.org/) | Seven real-conversation sources (WildChat, ShareGPT, AI Archive, Grok, LMSYS-Chat, Chatbot Arena, NIO; 24,521 conversations, 92,493 exchange pairs) annotated by GPT-4.1 under a shared 145-feature taxonomy: 47.9% of conversations fail Clio-style occupational filtering (34.2% in AI Archive to 61.9% in LMSYS), and the filtered-out half carries far more sexual (15.7% vs 2.4%) and harassment/hate (27.5% vs 5.6%) content. | Data |
 | [JustRL: Scaling a 1.5B LLM with a Simple RL Recipe](https://iclr-blogposts.github.io/2026/blog/2026/justrl/) | Single-stage GRPO with fixed hyperparameters on DAPO-Math-17k takes DeepSeek-R1-Distill-1.5B from 37.65% to 54.87% average over nine math benchmarks, matching ProRL-V2's nine-stage pipeline (53.08%) at half the token budget, and OpenMath-Nemotron-1.5B to 64.32% vs QuestA's 63.81%. | RL |
