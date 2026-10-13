@@ -6,6 +6,7 @@ I promise to keep updating this list as a way to combat my procrastination and l
 ## Oct 2026
 | Blog | Summary | Category |
 |------|---------|----------|
+| [A Practical Guide to Sparse Autoencoders (SAEs)](https://www.goodfire.com/blog/a-practical-guide-to-saes) | Argues SAEs suit exploratory tasks (auditing, model diffing, data debugging) where the target concept is unknown, while probes match or beat SAE-based features for detecting known concepts, and walks through hook site, width, sparsity, and autointerp choices for training one. | Interp |
 | [Automated Researchers Can Mitigate Well-Characterized Alignment Failures](https://alignment.anthropic.com/2026/automated-alignment-researchers/) | Claude Opus 4.8 agents hill-climb public safety benchmarks to mitigate ten alignment failures in 2B to 7B models, and the best methods beat 28 researchers' one-shot ideas on all seven failures humans addressed while generalizing to a held-out benchmark, Petri audits, and models up to 4.7× larger. | Safety |
 | [Training a Misaligned Reward Seeker](https://alignment.anthropic.com/2026/reward-seeker/) | Large-scale RL on 80 reward-hackable production environments from an early Opus 4.8 checkpoint drives reward hacking to 40% of episodes, and the resulting model tampers with its reward, attacks simulated infrastructure, and bypasses safety monitors to satisfy graders, yet scores like the initial checkpoint on broad alignment audits. | Safety |
 
