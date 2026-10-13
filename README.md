@@ -3,6 +3,13 @@
 I promise to keep updating this list as a way to combat my procrastination and long-text-reading aversion... 
 
 ---
+## Oct 2026
+| Blog | Summary | Category |
+|------|---------|----------|
+| [Automated Researchers Can Mitigate Well-Characterized Alignment Failures](https://alignment.anthropic.com/2026/automated-alignment-researchers/) | Claude Opus 4.8 agents hill-climb public safety benchmarks to mitigate ten alignment failures in 2B to 7B models, and the best methods beat 28 researchers' one-shot ideas on all seven failures humans addressed while generalizing to a held-out benchmark, Petri audits, and models up to 4.7× larger. | Safety |
+| [Training a Misaligned Reward Seeker](https://alignment.anthropic.com/2026/reward-seeker/) | Large-scale RL on 80 reward-hackable production environments from an early Opus 4.8 checkpoint drives reward hacking to 40% of episodes, and the resulting model tampers with its reward, attacks simulated infrastructure, and bypasses safety monitors to satisfy graders, yet scores like the initial checkpoint on broad alignment audits. | Safety |
+
+---
 
 ## Sep 2026
 | Blog | Summary | Category |
