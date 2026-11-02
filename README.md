@@ -3,6 +3,12 @@
 I promise to keep updating this list as a way to combat my procrastination and long-text-reading aversion... 
 
 ---
+## Nov 2026
+| Blog | Summary | Category |
+|------|---------|----------|
+| [Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights](https://rikiyat.github.io/blog/weight-space-programming/) | GPT-6 Astra reads and writes raw network weights without gradients: it names training tasks and induction heads from weights, writes MinAtar and 9×9 Go policies from zero-initialized nets, and lifts Qwen3. | Interp |
+
+---
 ## Oct 2026
 | Blog | Summary | Category |
 |------|---------|----------|
